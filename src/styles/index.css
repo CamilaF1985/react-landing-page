@@ -1,12 +1,26 @@
+/* Estilos para el Navbar */
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link.active {
+    color: white; /* Cambia para el brand y el enlace activo */
+}
 
-/* 
+.navbar-light .navbar-nav .nav-link {
+    color: gray; /* Color para los enlaces inactivos */
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+/* Estilos para el jumbotron */
+.custom-jumbotron {
+    background-color: #e1ddddec; 
+    padding-top: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
 
-*/
+.custom-jumbotron h1 {
+    font-size: 55px;
+}
+
+/* Estilos para la card */
+.custom-card {
+    width: 18rem;
+}
