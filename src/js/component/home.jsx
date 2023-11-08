@@ -8,7 +8,7 @@ const Home = () => {
     return (
         <div>
             <Navbar />
-            <div className="container">
+            <div className="container-fluid">
                 <Jumbotron />
                 <div className="row">
                     <div className="col mb-4">

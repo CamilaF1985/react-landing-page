@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = () => {
     return (
-        <div className="card custom-card mx-0">
+        <div className="card custom-card ms-1">
             <img
                 src="https://fastly.picsum.photos/id/270/500/325.jpg?hmac=8qxZXOOXvha7k0822XXeY6oDd0e5EJkSfUx2RfiUn6o"
                 className="card-img-top mx-auto" alt="foto"

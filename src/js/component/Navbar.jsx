@@ -14,10 +14,10 @@ const Navbar = () => {
                     aria-expanded="false"
                     aria-label="Toggle navigation"
                 >
-                    <span className="navbar-toggler-icon"></span>
+                    <span id="botonHamburguesa"><i class="fas fa-bars"></i></span>
                 </button>
-                <div className="collapse navbar-collapse me-3" id="navbarNav">
-                    <ul className="navbar-nav" style={{ marginLeft: "auto" }}>
+                <div className="collapse navbar-collapse" id="navbarNav">
+                    <ul className="navbar-nav ms-auto"> 
                         <li className="nav-item">
                             <a className="nav-link active" aria-current="page" href="/">Home</a>
                         </li>
@@ -38,6 +38,20 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
