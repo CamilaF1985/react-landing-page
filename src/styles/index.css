@@ -20,11 +20,8 @@ body {
     display: inline-block;
     border: 1px solid gray;
     padding: 5px 10px;
-    /* Ajusta el espacio entre el borde y las rayitas según tus preferencias */
     border-radius: 10px;
-    /* Ajusta el radio de las puntas redondeadas según tus preferencias */
     color: gray;
-    /* Cambia el color del ícono (las tres rayitas) a gris */
 }
 
 /* Estilos para el jumbotron */
